@@ -1,13 +1,28 @@
 {
-    "require": {
-        "tau/http": "^1.0",
-        "tau/router": "^1.0",
-        "twig/twig": "^1.31"
-    },
-
-    "autoload" : {
-      "psr-4" : {
-        "Tau\\" : "app"
-      }
+  "name"    : "tau/tau",
+  "version" : "1.0",
+  "description"  : "Tau PHP Framework",
+  "repositories" : [
+    {
+      "type" : "vcs",
+      "url"  : "https://github.com/yaliya/tau"
     }
+  ],
+
+  "licence" : [
+    "LGPL-2.1",
+    "GPL-3.0+"
+  ],
+
+  "require": {
+    "tau/http": "^1.0",
+    "tau/router": "^1.0",
+    "twig/twig": "^1.31"
+  },
+
+  "autoload" : {
+    "psr-4" : {
+      "Tau\\" : "app"
+    }
+  }
 }
