@@ -1,7 +1,7 @@
 {
   "name"    : "tau/tau",
   "version" : "1.0",
-  "licence" : "MIT",
+  "license" : "MIT",
   "description"  : "Tau PHP Framework",
   "repositories" : [
     {
