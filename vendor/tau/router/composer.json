@@ -1,0 +1,29 @@
+{
+  "name"    : "tau/router",
+  "version" : "1.0",
+  "repositories" : [
+    {
+      "type" : "vcs",
+      "url"  : "https://github.com/yaliya/router"
+    }
+  ],
+
+  "licence" : [
+    "LGPL-2.1",
+    "GPL-3.0+"
+  ],
+
+  "authors" : [
+    {
+      "name"  : "Yusuf Aliya",
+      "email" : "yaliyyaa@gmail.com",
+      "role"  : "Developer"
+    }
+  ],
+
+  "autoload" : {
+    "psr-4" : {
+      "Tau\\" : "Tau"
+    }
+  }
+}

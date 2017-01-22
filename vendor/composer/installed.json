@@ -1,0 +1,129 @@
+[
+    {
+        "name": "tau/http",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yaliya/http.git",
+            "reference": "5adfbd3f66defc0fe60e0d637ade5d62af83fad4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yaliya/http/zipball/5adfbd3f66defc0fe60e0d637ade5d62af83fad4",
+            "reference": "5adfbd3f66defc0fe60e0d637ade5d62af83fad4",
+            "shasum": ""
+        },
+        "time": "2017-01-21 23:59:30",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Tau\\": "Tau"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Yusuf Aliya",
+                "email": "yaliyyaa@gmail.com",
+                "role": "Developer"
+            }
+        ]
+    },
+    {
+        "name": "tau/router",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yaliya/router.git",
+            "reference": "aff7cf2ad65052dea682507077deed53fcae77bf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yaliya/router/zipball/aff7cf2ad65052dea682507077deed53fcae77bf",
+            "reference": "aff7cf2ad65052dea682507077deed53fcae77bf",
+            "shasum": ""
+        },
+        "time": "2017-01-21 23:59:02",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Tau\\": "Tau"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Yusuf Aliya",
+                "email": "yaliyyaa@gmail.com",
+                "role": "Developer"
+            }
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.31.0",
+        "version_normalized": "1.31.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+            "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.7"
+        },
+        "require-dev": {
+            "symfony/debug": "~2.7",
+            "symfony/phpunit-bridge": "~3.2"
+        },
+        "time": "2017-01-11 19:36:15",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.31-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    }
+]
