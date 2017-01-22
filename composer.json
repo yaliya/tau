@@ -18,7 +18,7 @@
 
   "autoload" : {
     "psr-4" : {
-      "Tau\\" : "app"
+      "Tau\\" : "app/"
     }
   }
 }
