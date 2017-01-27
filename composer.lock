@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4d23263ae52cd90e569449bf6e292ee",
-    "content-hash": "1ea0d72f5639beb500cc7f1a0d7b7ddf",
+    "hash": "4c1dddd1d4cd91f1c6b841475ddec75d",
+    "content-hash": "4c0d1601331884bc03169c911eba3662",
     "packages": [
         {
             "name": "tau/http",
@@ -66,6 +66,36 @@
                 }
             ],
             "time": "2017-01-21 23:59:02"
+        },
+        {
+            "name": "tau/view",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaliya/view.git",
+                "reference": "db0194c587d6396d946ec32b71f5a45e7594bb54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaliya/view/zipball/db0194c587d6396d946ec32b71f5a45e7594bb54",
+                "reference": "db0194c587d6396d946ec32b71f5a45e7594bb54",
+                "shasum": ""
+            },
+            "require": {
+                "twig/twig": "^1.31"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tau\\": "Tau"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Templating Engines for Tau",
+            "time": "2017-01-27 23:23:43"
         },
         {
             "name": "twig/twig",
