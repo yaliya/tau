@@ -2,7 +2,7 @@
 
 namespace Tau\Controllers;
 
-use Tau\View as View;
+use Tau\Views\View;
 use Tau\Http\Response;
 
 class TestController
