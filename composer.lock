@@ -4,21 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c1dddd1d4cd91f1c6b841475ddec75d",
-    "content-hash": "4c0d1601331884bc03169c911eba3662",
+    "hash": "56d6fa4166675a0a88b7541112ab5f8f",
+    "content-hash": "b3c43b91e8516b5672e9ca58b39cff93",
     "packages": [
         {
-            "name": "tau/http",
+            "name": "tau/database",
             "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaliya/database.git",
+                "reference": "7ba3e868bd63a6761bd18bd976389906453d663f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaliya/database/zipball/7ba3e868bd63a6761bd18bd976389906453d663f",
+                "reference": "7ba3e868bd63a6761bd18bd976389906453d663f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tau\\": "Tau"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP Database Abstraction Layer",
+            "time": "2017-01-28 15:18:22"
+        },
+        {
+            "name": "tau/http",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaliya/http.git",
-                "reference": "5adfbd3f66defc0fe60e0d637ade5d62af83fad4"
+                "reference": "533569573c99c7042f910c145650bd2982d1be34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaliya/http/zipball/5adfbd3f66defc0fe60e0d637ade5d62af83fad4",
-                "reference": "5adfbd3f66defc0fe60e0d637ade5d62af83fad4",
+                "url": "https://api.github.com/repos/yaliya/http/zipball/533569573c99c7042f910c145650bd2982d1be34",
+                "reference": "533569573c99c7042f910c145650bd2982d1be34",
                 "shasum": ""
             },
             "type": "library",
@@ -28,6 +55,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Yusuf Aliya",
@@ -35,20 +65,20 @@
                     "role": "Developer"
                 }
             ],
-            "time": "2017-01-21 23:59:30"
+            "time": "2017-01-22 13:33:21"
         },
         {
             "name": "tau/router",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaliya/router.git",
-                "reference": "aff7cf2ad65052dea682507077deed53fcae77bf"
+                "reference": "a8747cad595b124a4626f0d16d91c4b59f1c1387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaliya/router/zipball/aff7cf2ad65052dea682507077deed53fcae77bf",
-                "reference": "aff7cf2ad65052dea682507077deed53fcae77bf",
+                "url": "https://api.github.com/repos/yaliya/router/zipball/a8747cad595b124a4626f0d16d91c4b59f1c1387",
+                "reference": "a8747cad595b124a4626f0d16d91c4b59f1c1387",
                 "shasum": ""
             },
             "type": "library",
@@ -58,6 +88,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Yusuf Aliya",
@@ -65,7 +98,7 @@
                     "role": "Developer"
                 }
             ],
-            "time": "2017-01-21 23:59:02"
+            "time": "2017-01-22 13:34:04"
         },
         {
             "name": "tau/view",
