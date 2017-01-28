@@ -11,8 +11,8 @@
   ],
 
   "require": {
-    "tau/http": "^1.0",
-    "tau/router": "^1.0",
+    "tau/http": "^1.1",
+    "tau/router": "^1.1",
     "tau/view": "^1.0"
   },
 
