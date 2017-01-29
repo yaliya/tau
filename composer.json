@@ -9,9 +9,13 @@
     "url"  : "https://github.com/yaliya/tau"
   }],
 
+  "require": {
+    "tau/framework": "^1.0"
+  }
+
   "autoload" : {
     "psr-4" : {
       "Tau\\" : "app/"
     }
-  }
+  },
 }
