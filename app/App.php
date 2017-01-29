@@ -2,8 +2,8 @@
 
 namespace Tau;
 
-use Tau\Views\View;
-use Tau\Views\Twig;
+use Tau\View\View;
+use Tau\View\Twig;
 use Tau\Router\Router;
 use Tau\Database\DBAL\MySQL;
 

@@ -1,21 +1,13 @@
 {
   "name"    : "tau/tau",
-  "version" : "1.1",
+  "version" : "1.0",
   "license" : "MIT",
-  "description"  : "Tau PHP Framework",
-  "repositories" : [
-    {
-      "type" : "vcs",
-      "url"  : "https://github.com/yaliya/tau"
-    }
-  ],
+  "description"  : "Tau PHP App",
 
-  "require": {
-    "tau/http": "^1.1",
-    "tau/router": "^1.1",
-    "tau/view": "^1.0",
-    "tau/database": "^1.0"
-  },
+  "repositories" : [{
+    "type" : "vcs",
+    "url"  : "https://github.com/yaliya/tau"
+  }],
 
   "autoload" : {
     "psr-4" : {

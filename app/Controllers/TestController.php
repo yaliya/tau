@@ -2,7 +2,7 @@
 
 namespace Tau\Controllers;
 
-use Tau\Views\View;
+use Tau\View\View;
 use Tau\Http\Response;
 use Tau\Database\ORM\Model;
 
