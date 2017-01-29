@@ -1,2 +1,2 @@
 # tau
-Simple PHP App from Tau Framework
+PHP App from Tau Framework
