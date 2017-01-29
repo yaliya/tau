@@ -28,7 +28,7 @@ class App
     ));
 
     View::init(new Twig(array(
-      "debug" => true,
+      "debug" => $_ENV["APP_DEBUG"],
       "views" => __DIR__."/../app/Views/",
       "cache" => __DIR__."/../storage/cache/templates/"
     )));
