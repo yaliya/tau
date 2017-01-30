@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8857aa71ec744e4cf4fa9bc65d3db365",
-    "content-hash": "9b829ad264a6260f777a05f7c4d189ee",
+    "hash": "a89f617e32514e8e65f87d4334d40727",
+    "content-hash": "4085c218ab4cdc7e2a843bbb7e374db5",
     "packages": [
         {
             "name": "tau/framework",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yaliya/framework.git",
-                "reference": "53ca10cb3bf7fc2307f18ed1ac46d550862df29f"
+                "reference": "49e6207700fe3dee26d581e572fe833550b694cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yaliya/framework/zipball/53ca10cb3bf7fc2307f18ed1ac46d550862df29f",
-                "reference": "53ca10cb3bf7fc2307f18ed1ac46d550862df29f",
+                "url": "https://api.github.com/repos/yaliya/framework/zipball/49e6207700fe3dee26d581e572fe833550b694cb",
+                "reference": "49e6207700fe3dee26d581e572fe833550b694cb",
                 "shasum": ""
             },
             "require": {
@@ -36,7 +36,7 @@
                 "MIT"
             ],
             "description": "Tau PHP Framework",
-            "time": "2017-01-29 22:28:54"
+            "time": "2017-01-30 19:27:29"
         },
         {
             "name": "twig/twig",

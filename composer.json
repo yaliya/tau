@@ -10,7 +10,7 @@
   }],
 
   "require": {
-    "tau/framework": "^1.0"
+    "tau/framework": "^1.1"
   },
 
   "autoload" : {

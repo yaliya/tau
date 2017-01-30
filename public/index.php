@@ -38,18 +38,6 @@ require "../routes/api.php";
 
 /*
  |------------------------------------
- | Init the Application
- |------------------------------------
- |
- |  Here the application is initialized and
- |  the templating engine for the views is set.
- |
-*/
-Tau\App::init();
-
-
-/*
- |------------------------------------
  | Run the Application
  |------------------------------------
  |
@@ -57,4 +45,7 @@ Tau\App::init();
  |  and the request is processed by the Router.
  |
 */
-Tau\App::run();
+
+return new Tau\Foundation\Application(
+  realpath(dirname(__DIR__))
+);
