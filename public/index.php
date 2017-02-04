@@ -46,6 +46,6 @@ require "../routes/api.php";
  |
 */
 
-return new Tau\Foundation\Application(
+return new Tau\Application(
   realpath(dirname(__DIR__))
 );
