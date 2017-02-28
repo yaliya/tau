@@ -10,7 +10,8 @@
   }],
 
   "require": {
-    "tau/framework": "^1.1"
+    "tau/framework": "^1.1",
+    "vlucas/phpdotenv": "^2.4"
   },
 
   "autoload" : {
