@@ -1,5 +1,5 @@
 <?php
 
-use Tau\Router\Router;
+use Tau\Route;
 
-Router::get("/api/test", "TestController@test");
+Route::get("/api/test", "TestController@test");

@@ -1,5 +1,8 @@
 <?php
 
-use Tau\Router\Router;
+use Tau\Route;
 
-Router::get("/", "TestController@index");
+//Simple route with controller
+Route::get("/", "TestController@index")
+      //using middleware
+      ->after("TestMiddleware");
