@@ -2,4 +2,7 @@
 
 use Tau\Route;
 
-Route::get("/api/test", "TestController@test");
+//Api route with custom response
+Route::get("/api/test", "TestController@test")
+      //After middleware
+      ->after("TestMiddleware");

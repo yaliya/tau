@@ -5,11 +5,6 @@ namespace Tau;
 class Application
 {
   public function __construct($rootDir) {
-    $dotenv = new \Dotenv\Dotenv($rootDir);
-
-    $dotenv->load();
-
-    date_default_timezone_set($_ENV["APP_TIMEZONE"]);
 
     Database::init([
       'driver'    => $_ENV["DB_DRIVER"],
