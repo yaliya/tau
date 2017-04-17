@@ -1,2 +1,10 @@
 # About Tau
-Fast and lightweight PHP framework build to help you be creative, Tau is an experimental implementation of various web application framework components such as Routing, Database ORM and DBAL, HTTP Request and Response and Templating engines like Twig. All of the components were made from scratch with the exception of Twig.
+Fast and lightweight PHP framework build to help you be creative, Tau is an experimental implementation of various web application framework components. Tau is minimal build with speed in mind. Its flexible and extensible core helps you upgrade Tau in anyway you want.
+
+## Components
+
+Fast Routing
+Http Request and Response
+Controllers and Middlewares
+Views and templating engines
+Database and Models
