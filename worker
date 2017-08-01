@@ -1,0 +1,7 @@
+<?php 
+
+require __DIR__.'/vendor/autoload.php';
+
+$queue = new Tau\Worker\Queue();
+
+$queue->process();

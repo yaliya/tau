@@ -1,9 +1,9 @@
 <?php
 
-use Tau\Router\Router;
+use Tau\Route;
 
-Router::get("/api/test", "TestController@test");
 
-Router::post("/api/auth", "CheckinController@auth");
-
-Router::post("/api/send", "CheckinController@send");
+//Api route with custom response
+Route::get("/api/test", "TestController@test")
+      //After middleware
+      ->after("TestMiddleware");

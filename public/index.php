@@ -14,6 +14,18 @@ require "../vendor/autoload.php";
 
 /*
  |------------------------------------
+ | Application bootstraping
+ |------------------------------------
+ |
+ |  Include all things that do stuff that needs
+ |  to be done before the application is bootstraped
+ |
+*/
+
+require "../bootstrap/app.php";
+
+/*
+ |------------------------------------
  | Register the Web Routes
  |------------------------------------
  |
@@ -21,6 +33,7 @@ require "../vendor/autoload.php";
  |  return a web view from the processed request.
  |
 */
+
 
 require "../routes/web.php";
 
@@ -46,4 +59,6 @@ require "../routes/api.php";
  |
 */
 
-return new Tau\App(realpath(dirname(__DIR__)));
+return new Tau\Application(
+  realpath(dirname(__DIR__))
+);
