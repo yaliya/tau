@@ -115,7 +115,7 @@ class Queue
 					$contents .= "class ".$args[2]."\n";
 					$contents .= "{\n";
 					$contents .= "\tpublic function request() \n\t{\n";
-					$contents .= "\t\t//Code\n";
+					$contents .= "\t\t//Code\n\n\t\treturn true;\n";
 					$contents .= "\t}\n";
 					$contents .= "};";
 

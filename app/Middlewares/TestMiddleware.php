@@ -13,5 +13,7 @@ class TestMiddleware
       "version" => getenv("APP_VERSION"),
       "licence" => getenv("APP_LICENCE")
     ));
+
+    return true;
   }
 }
