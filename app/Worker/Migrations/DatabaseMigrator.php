@@ -10,7 +10,7 @@ class DatabaseMigrator implements Migrator
 	public function up($schema) 
 	{
 		//Create
-		(new TestMigration)->up($schema);
+		(new CreateUsersTable)->up($schema);
 
 		return "Migrations updated \n";
 	}
@@ -18,7 +18,7 @@ class DatabaseMigrator implements Migrator
 	public function down($schema) 
 	{
 		//Drop
-		(new TestMigration)->down($schema);
+		(new CreateUsersTable)->down($schema);
 
 		return "Migrations deleted \n";
 	}

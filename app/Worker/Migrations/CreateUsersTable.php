@@ -5,13 +5,14 @@ namespace Tau\Worker\Migrations;
 use Tau\Worker\Migrator;
 use Illuminate\Database\Schema\Blueprint;
 
-class TestMigration implements Migrator
+class CreateUsersTable implements Migrator
 {
 	public function up($schema) 
 	{
 		//Create
-		$schema->create('test_table', function(Blueprint $table) {
-			$table->increments('id');
+		$schema->create('users', function(Blueprint $table) {
+			$table->increments('id')->unsigned();
+			$table->string('name');
 			$table->timestamps();
 		});
 	}
@@ -19,6 +20,6 @@ class TestMigration implements Migrator
 	public function down($schema) 
 	{
 		//Drop
-		$schema->dropIfExists('test_table');
+		$schema->dropIfExists('users');
 	}
 };

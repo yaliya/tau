@@ -11,6 +11,6 @@ class JobRunner implements Job
 		//Code
 		(new TestJob)->run();
 
-		return "Job completed \n";
+		return "Jobs completed \n";
 	}
 };
