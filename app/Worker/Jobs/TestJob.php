@@ -2,9 +2,9 @@
 
 namespace Tau\Worker\Jobs;
 
-use Tau\Worker\Job
+use Tau\Worker\Job;
 
-class Test implements Job
+class TestJob implements Job
 {
 	public function run() 
 	{
