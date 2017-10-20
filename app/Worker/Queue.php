@@ -49,7 +49,7 @@ class Queue
 					$classname = "Tau\\Worker\\Jobs\\".$classname;
 				}
 
-				echo call_user_func(array($classname, "run"));
+				echo call_user_func(array(new $classname, "run"));
 			}
 
 			if($args[1] == "queue:work") {
@@ -76,7 +76,7 @@ class Queue
 					$classname = "Tau\\Worker\\Seeds\\".$classname;
 				}
 
-				echo call_user_func(array($classname, "clear"));
+				echo call_user_func(array(new $classname, "clear"));
 			}
 
 			if($args[1] == "run:seed") {
@@ -86,7 +86,7 @@ class Queue
 					$classname = "Tau\\Worker\\Seeds\\".$classname;
 				}
 
-				echo call_user_func(array($classname, "run"));
+				echo call_user_func(array(new $classname, "run"));
 			}
 
 			if($args[1] == "migrate:up") {
@@ -96,7 +96,7 @@ class Queue
 					$classname = "Tau\\Worker\\Migrations\\".$classname;
 				}
 
-				echo call_user_func_array(array($classname, "up"), [$this->capsule->schema()]);
+				echo call_user_func_array(array(new $classname, "up"), [$this->capsule->schema()]);
 			}
 
 			if($args[1] == "migrate:refresh") {
@@ -106,9 +106,9 @@ class Queue
 					$classname = "Tau\\Worker\\Migrations\\".$classname;
 				}
 
-				echo call_user_func_array(array($classname, "down"), [$this->capsule->schema()]);
+				echo call_user_func_array(array(new $classname, "down"), [$this->capsule->schema()]);
 
-				echo call_user_func_array(array($classname, "up"), [$this->capsule->schema()]);
+				echo call_user_func_array(array(new $classname, "up"), [$this->capsule->schema()]);
 
 				if(isset($args[3]) && $args[3] == "--seed") {
 					if(isset($args[4])) {
@@ -118,7 +118,7 @@ class Queue
 							$classname = "Tau\\Worker\\Seeds\\".$classname;
 						}
 
-						echo call_user_func(array($classname, "run"));
+						echo call_user_func(array(new $classname, "run"));
 					}
 				}
 			}
@@ -130,7 +130,7 @@ class Queue
 					$classname = "Tau\\Worker\\Migrations\\".$classname;
 				}
 
-				echo call_user_func_array(array($classname, "down"), [$this->capsule->schema()]);
+				echo call_user_func_array(array(new $classname, "down"), [$this->capsule->schema()]);
 			}
 
 			if($args[1] == "make:job") {
